@@ -1,12 +1,38 @@
 body {
     color:black;
+    background-color:rgb(255, 206, 206);
+    font-size:0.95em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
-    color:rgb(68, 177, 180);
+    color:rgb(34, 25, 204);
 }
 
 h2 {
-    color:rgb(68, 177, 180);
+    color:rgb(34, 25, 204);
+}
+
+em {
+    color:rgb(8, 133, 62);
+    font-weight:bolder;
+}
+
+a:link {  
+    color:rgb(26, 72, 223);  
+}
+
+a:hover {
+    color:rgb(177, 45, 45);
+    background-color:rgb(255, 178, 178);
+}
+
+a:visited {
+    color:rgb(136, 4, 125);
+}
+
+a:active {
+    color:rgb(27, 191, 203);
+    background-color:rgb(240, 250, 253);
 }
 
