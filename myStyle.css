@@ -5,13 +5,7 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1 {
-    color:rgb(34, 25, 204);
-    text-align:center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h2 {
+h1, h2 {
     color:rgb(34, 25, 204);
     text-align:center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -19,6 +13,10 @@ h2 {
 
 h3 {
     text-align: center;
+}
+
+li strong {
+    color:rgb(32, 163, 172);
 }
 
 em {
@@ -59,3 +57,23 @@ hr {
     margin-right: auto;
 }
 
+p.intro {
+    font-weight:lighter;
+}
+
+p.conclusion {
+    font-weight:bolder;
+}
+
+img#MerlinIMG {
+    width: 400px;
+}
+
+h2#ArticleTitle {
+    color:saddlebrown;
+}
+
+li#XDClass {
+    color:blueviolet;
+    font-weight:bolder;
+}
