@@ -3,6 +3,12 @@ body {
     background-color:rgb(255, 206, 206);
     font-size:0.95em;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+p, h4 {
+    margin-left: 1em;
 }
 
 h1, h2 {
@@ -13,6 +19,7 @@ h1, h2 {
 
 h3 {
     text-align: center;
+    color:rgb(130, 4, 117);
 }
 
 li strong {
@@ -26,6 +33,7 @@ em {
 
 a:link {  
     color:rgb(26, 72, 223);  
+    font-style: italic;
 }
 
 a:hover {
@@ -59,14 +67,35 @@ hr {
 
 p.intro {
     font-weight:lighter;
+    text-indent: 3em;
+}
+
+p.body {
+    text-indent: 3em;
+}
+
+blockquote {
+    margin-left: 6em;
+    font-style: italic;
 }
 
 p.conclusion {
     font-weight:bolder;
+    text-indent: 3em;
+}
+
+p.photoCredit {
+    text-align: center;
+    margin-top:0em;
 }
 
 img#MerlinIMG {
     width: 400px;
+    float: left;
+    margin-left: 0.5em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 h2#ArticleTitle {
@@ -77,3 +106,13 @@ li#XDClass {
     color:blueviolet;
     font-weight:bolder;
 }
+
+ul li {
+    margin-bottom: 0.3em;
+}
+
+img#RickyIMG {
+    width:500px;
+}
+
+
