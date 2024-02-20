@@ -19,3 +19,33 @@ myitem = document.getElementById("firsttest");
         myitem.style.color = "black";
         myitem.style.fontFamily = "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
     }
+
+    //Button section
+    thebutton = document.getElementById("thebutton");  
+    otheritem = document.getElementById("buttontest");
+
+    thebutton.addEventListener("click", onButtonClick);
+
+    function onButtonClick() {  
+        otheritem.style.color = "red";  
+    }
+
+    //Second Button 
+    purpleB = document.getElementById("purpleButton");
+    purpleT = document.getElementById("purpleText");
+
+    purpleB.addEventListener("click", onPurpleClick);
+
+    function onPurpleClick() {  
+        purpleT.style.color = "purple";  
+    }
+
+    //Text entry box 
+    otheritem2 = document.getElementById("favoriteExperience");
+    textentry = document.getElementById("myinput");  
+    textentry.addEventListener("change", onChange);
+
+    function onChange() {  
+        newtext = myinput.value;  
+        otheritem2.innerHTML = newtext;  
+    }
