@@ -28,31 +28,40 @@ li strong {
 
 em {
     color:rgb(8, 133, 62);
-    font-weight:medium;
+    font-weight: bold;
+}
+
+a {
+    font-weight: bold;
 }
 
 a:link {  
     color:rgb(26, 72, 223);  
-    font-style: italic;
+    text-decoration: none;
+}
+
+a:visited {
+    color:rgb(136, 4, 125);
+    text-decoration: none;
 }
 
 a:hover {
     color:rgb(177, 45, 45);
     background-color:rgb(255, 178, 178);
-}
-
-a:visited {
-    color:rgb(136, 4, 125);
+    text-decoration: underline;
 }
 
 a:active {
     color:rgb(27, 191, 203);
     background-color:rgb(240, 250, 253);
+    text-decoration: none;
 }
 
 img {
     border:2px solid black;
     text-align:center;
+    padding: 0.3em;
+    background-color: rgb(25, 83, 25);
 }
 
 hr {
@@ -113,6 +122,28 @@ ul li {
 
 img#RickyIMG {
     width:500px;
+    background-color: rgb(75, 8, 96);
+}
+
+div.nav {  
+    display:flex;
+    justify-content: center;
+    gap: .5em;
+}
+
+.footer {
+    text-align: center;
+    font-size: .9em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.content {
+    border: 1px solid;
+    border-radius: .5em;
+    padding: .5em;
+    margin: .1em;
+    background-color: rgb(249, 158, 148);
 }
 
 
