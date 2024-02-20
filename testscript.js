@@ -48,4 +48,18 @@ myitem = document.getElementById("firsttest");
     function onChange() {  
         newtext = myinput.value;  
         otheritem2.innerHTML = newtext;  
+        otheritem2.style.color = "blue";
     }
+
+    //Additional Button (revert changes)
+    revertButton = document.getElementById("revertChangesButton");
+    //Use purpleT variable that already exists to change the color of the text back to black
+
+    revertButton.addEventListener("click", onRevertClick);
+
+    function onRevertClick() {  
+        purpleT.style.color = "black";  
+        otheritem.style.color = "black"; 
+    }
+
+

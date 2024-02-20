@@ -146,4 +146,18 @@ div.nav {
     background-color: rgb(249, 158, 148);
 }
 
+/* Making buttons pretty */
+
+button {
+    background-color: rgb(196, 245, 245);
+    border-radius: .5em;
+    padding: .5em;
+}
+
+button#revertChangesButton {
+    background-color:whitesmoke;
+    color: rgb(255, 48, 48);
+}
+
+
 
