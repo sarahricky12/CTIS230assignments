@@ -180,25 +180,25 @@ button#revertChangesButton {
 }
 
 @media only screen and (orientation: portrait) {
-    body {
+    [class*="col-"]body {
         font-size: 18px;
     }
-    img#RickyIMG {
+    [class*="col-"]img#RickyIMG {
         width: 200px;
     }
-    img#MerlinIMG {
+    [class*="col-"]img#MerlinIMG {
         width: 150px;
     }
 }
 
 @media only screen and (orientation: landscape) {
-    body {
+    [class*="col-"]body {
         font-size: 16px;
     }
-    img#RickyIMG {
+    [class*="col-"]img#RickyIMG {
         width: 500px;
     }
-    img#MerlinIMG {
+    [class*="col-"]img#MerlinIMG {
         width: 400px;
     }
 }
