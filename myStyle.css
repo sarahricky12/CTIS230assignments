@@ -159,5 +159,48 @@ button#revertChangesButton {
     color: rgb(255, 48, 48);
 }
 
+@media only screen and (max-width: 800px) {
+    body {
+        margin: 0.2em;
+        font-size: 18px;
+    }
+    p {
+        margin: 0.2em;
+    }
+}
+
+@media only screen and (min-width: 801px) {
+    body {
+        margin: 1em;
+        font-size: 16px;
+    }
+    p {
+        margin: 1em;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    body {
+        font-size: 18px;
+    }
+    img#RickyIMG {
+        width: 300px;
+    }
+    img#MerlinIMG {
+        width: 300px;
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    body {
+        font-size: 16px;
+    }
+    img#RickyIMG {
+        width: 500px;
+    }
+    img#MerlinIMG {
+        width: 400px;
+    }
+}
 
 
