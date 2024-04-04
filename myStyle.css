@@ -159,10 +159,11 @@ button#revertChangesButton {
     color: rgb(255, 48, 48);
 }
 
+
 @media only screen and (max-width: 800px) {
     body {
         margin: 0.2em;
-        font-size: 18px;
+        font-size: 16px;
     }
     p {
         margin: 0.2em;
@@ -172,7 +173,7 @@ button#revertChangesButton {
 @media only screen and (min-width: 801px) {
     body {
         margin: 1em;
-        font-size: 16px;
+        font-size: 14px;
     }
     p {
         margin: 1em;
@@ -184,10 +185,10 @@ button#revertChangesButton {
         font-size: 16px;
     }
     [class*="col-"]img#RickyIMG {
-        width: 300px;
+        width: 250px;
     }
     [class*="col-"]img#MerlinIMG {
-        width: 200px;
+        width: 150px;
     }
 }
 
@@ -195,6 +196,10 @@ button#revertChangesButton {
     [class*="col-"]body {
         font-size: 14px;
     }
+    [class*="col-"]p {
+        font-size: 14px;
+    }
+
     [class*="col-"]img#RickyIMG {
         width: 500px;
     }
