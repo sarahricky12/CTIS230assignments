@@ -159,6 +159,16 @@ button#revertChangesButton {
     color: rgb(255, 48, 48);
 }
 
+/*New Image*/
+img#RoxyIMG {
+    width: 30%;
+    float: right;
+    margin-left: 1em;
+    margin-right: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 /*Extra Small devices*/
 @media only screen and (max-width: 600px) {
     body {
@@ -185,6 +195,9 @@ button#revertChangesButton {
     }
     img#MerlinIMG {
         width: 150px;
+    }
+    img#RoxyIMG {
+        width: 30%;
     }
 }
 
@@ -216,6 +229,9 @@ button#revertChangesButton {
     img#MerlinIMG {
         width: 200px;
     }
+    img#RoxyIMG {
+        width: 30%;
+    }
 }
 
 /*Small devices*/
@@ -245,6 +261,9 @@ button#revertChangesButton {
     }
     img#MerlinIMG {
         width: 200px;
+    }
+    img#RoxyIMG {
+        width: 30%;
     }
 }
 
@@ -278,6 +297,9 @@ button#revertChangesButton {
     img#MerlinIMG {
         width: 250px;
     }
+    img#RoxyIMG {
+        width: 30%;
+    }
 }
 
 /*large devices*/
@@ -309,15 +331,9 @@ button#revertChangesButton {
     img#MerlinIMG {
         width: 300px;
     }
+    img#RoxyIMG {
+        width: 30%;
+    }
 }
 
-/*New Image*/
-img#RoxyIMG {
-    width: 30%;
-    float: right;
-    margin-left: 1em;
-    margin-right: 0.5em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
 
