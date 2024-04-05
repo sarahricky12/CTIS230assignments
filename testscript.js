@@ -62,4 +62,3 @@ myitem = document.getElementById("firsttest");
         otheritem.style.color = "black"; 
     }
 
-
