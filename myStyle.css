@@ -163,6 +163,7 @@ button#revertChangesButton {
 @media only screen and (max-width: 600px) {
     body {
         font-size: 14.5px;
+        -webkit-text-size-adjust: none;
     }
     p {
         font-size: 14.5px;
@@ -191,6 +192,37 @@ button#revertChangesButton {
 @media only screen and (min-width: 600px) {
     body {
         font-size: 14px;
+        -webkit-text-size-adjust: none;
+    }
+    p {
+        font-size: 14px;
+    }
+    a {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 16.5px;
+    }
+    h2 {
+        font-size: 15.5px;
+    }
+    h3{
+        font-size: 14.5px;
+    }
+
+    img#RickyIMG {
+        width: 300px;
+    }
+    img#MerlinIMG {
+        width: 200px;
+    }
+}
+
+/*Small devices*/
+@media only screen and (min-width: 600px) and (orientation: landscape) {
+    body {
+        font-size: 14px;
+        -webkit-text-size-adjust: none;
     }
     p {
         font-size: 14px;
@@ -221,6 +253,7 @@ button#revertChangesButton {
     body {
         margin: 0.3em;
         font-size: 13.5px;
+        -webkit-text-size-adjust: none;
     }
     p {
         margin: 0.3em;
