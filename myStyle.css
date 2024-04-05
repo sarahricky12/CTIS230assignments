@@ -159,52 +159,75 @@ button#revertChangesButton {
     color: rgb(255, 48, 48);
 }
 
-
-@media only screen and (max-width: 800px) {
+/*Extra Small devices*/
+@media only screen and (max-width: 600px) {
     body {
-        margin: 0.2em;
         font-size: 16px;
     }
     p {
-        margin: 0.2em;
-    }
-}
-
-@media only screen and (min-width: 801px) {
-    body {
-        margin: 1em;
-        font-size: 14px;
-    }
-    p {
-        margin: 1em;
-    }
-}
-
-@media only screen and (orientation: portrait) {
-    [class*="col-"]body {
         font-size: 16px;
     }
-    [class*="col-"]img#RickyIMG {
+
+    img#RickyIMG {
         width: 250px;
     }
-    [class*="col-"]img#MerlinIMG {
+    img#MerlinIMG {
         width: 150px;
     }
 }
 
-@media only screen and (orientation: landscape) {
-    [class*="col-"]body {
+/*Small devices*/
+@media only screen and (min-width: 600px) {
+    body {
+        font-size: 15px;
+    }
+    p {
+        font-size: 15px;
+    }
+
+    img#RickyIMG {
+        width: 300px;
+    }
+    img#MerlinIMG {
+        width: 200px;
+    }
+}
+
+/*medium devices*/
+@media only screen and (min-width: 768px) {
+    body {
+        margin: 0.3em;
         font-size: 14px;
     }
-    [class*="col-"]p {
+    p {
+        margin: 0.3em;
         font-size: 14px;
     }
 
-    [class*="col-"]img#RickyIMG {
-        width: 500px;
+    img#RickyIMG {
+        width: 350px;
     }
-    [class*="col-"]img#MerlinIMG {
+    img#MerlinIMG {
+        width: 250px;
+    }
+}
+
+/*large devices*/
+@media only screen and (min-width: 992px) {
+    body {
+        margin: 0.5em;
+        font-size: 13px;
+    }
+    p {
+        margin: 0.5em;
+        font-size: 13px;
+    }
+
+    img#RickyIMG {
         width: 400px;
+    }
+    img#MerlinIMG {
+        width: 300px;
     }
 }
 
